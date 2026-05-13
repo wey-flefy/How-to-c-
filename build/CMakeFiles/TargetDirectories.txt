@@ -1,3 +1,4 @@
-C:/_DATA/software/HowToC/build/CMakeFiles/HelloWorld.dir
+C:/_DATA/software/HowToC/build/CMakeFiles/drehzahlueberwachung.dir
+C:/_DATA/software/HowToC/build/CMakeFiles/TEST_Speed.dir
 C:/_DATA/software/HowToC/build/CMakeFiles/edit_cache.dir
 C:/_DATA/software/HowToC/build/CMakeFiles/rebuild_cache.dir

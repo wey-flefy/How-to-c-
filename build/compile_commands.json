@@ -1,8 +1,14 @@
 [
 {
   "directory": "C:/_DATA/software/HowToC/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\HelloWorld.dir\\HelloWorld.cpp.obj -c C:\\_DATA\\software\\HowToC\\HelloWorld.cpp",
-  "file": "C:/_DATA/software/HowToC/HelloWorld.cpp",
-  "output": "CMakeFiles/HelloWorld.dir/HelloWorld.cpp.obj"
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\drehzahlueberwachung.dir\\src\\drehzahlueberwachung.cpp.obj -c C:\\_DATA\\software\\HowToC\\src\\drehzahlueberwachung.cpp",
+  "file": "C:/_DATA/software/HowToC/src/drehzahlueberwachung.cpp",
+  "output": "CMakeFiles/drehzahlueberwachung.dir/src/drehzahlueberwachung.cpp.obj"
+},
+{
+  "directory": "C:/_DATA/software/HowToC/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\TEST_Speed.dir\\TEST_Speed.cpp.obj -c C:\\_DATA\\software\\HowToC\\TEST_Speed.cpp",
+  "file": "C:/_DATA/software/HowToC/TEST_Speed.cpp",
+  "output": "CMakeFiles/TEST_Speed.dir/TEST_Speed.cpp.obj"
 }
 ]

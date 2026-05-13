@@ -16,7 +16,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -28,10 +29,11 @@
 					[
 						0
 					],
-					"name" : "HelloWorld",
+					"name" : "TEST_Speed",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,9 +41,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "HelloWorld::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-HelloWorld-Debug-9531767752262f4cfc07.json",
-					"name" : "HelloWorld",
+					"id" : "TEST_Speed::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TEST_Speed-Debug-6c0f894e1a102a7b03fa.json",
+					"name" : "TEST_Speed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drehzahlueberwachung::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drehzahlueberwachung-Debug-01c068a6a1c0f0fc245d.json",
+					"name" : "drehzahlueberwachung",
 					"projectIndex" : 0
 				}
 			]

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "HelloWorld.exe"
+			"path" : "TEST_Speed.exe"
 		},
 		{
-			"path" : "HelloWorld.pdb"
+			"path" : "TEST_Speed.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -13,7 +13,8 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_executable",
+			"target_link_libraries"
 		],
 		"files" : 
 		[
@@ -27,7 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 10,
 				"parent" : 0
 			}
 		]
@@ -37,6 +44,13 @@
 		"major" : 2,
 		"minor" : 10
 	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "drehzahlueberwachung::@6890427a1f51a3e7e1df"
+		}
+	],
 	"compileGroups" : 
 	[
 		{
@@ -61,7 +75,14 @@
 			]
 		}
 	],
-	"id" : "HelloWorld::@6890427a1f51a3e7e1df",
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "drehzahlueberwachung::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "TEST_Speed::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -71,14 +92,26 @@
 				"role" : "flags"
 			},
 			{
+				"backtrace" : 2,
+				"fragment" : "libdrehzahlueberwachung.a",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
 				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "HelloWorld",
-	"nameOnDisk" : "HelloWorld.exe",
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "drehzahlueberwachung::@6890427a1f51a3e7e1df"
+		}
+	],
+	"name" : "TEST_Speed",
+	"nameOnDisk" : "TEST_Speed.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -99,7 +132,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "HelloWorld.cpp",
+			"path" : "TEST_Speed.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

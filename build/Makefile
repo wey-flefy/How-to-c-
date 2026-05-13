@@ -116,41 +116,78 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named HelloWorld
+# Target rules for targets named drehzahlueberwachung
 
 # Build rule for target.
-HelloWorld: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HelloWorld
-.PHONY : HelloWorld
+drehzahlueberwachung: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 drehzahlueberwachung
+.PHONY : drehzahlueberwachung
 
 # fast build rule for target.
-HelloWorld/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorld.dir\build.make CMakeFiles/HelloWorld.dir/build
-.PHONY : HelloWorld/fast
+drehzahlueberwachung/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\drehzahlueberwachung.dir\build.make CMakeFiles/drehzahlueberwachung.dir/build
+.PHONY : drehzahlueberwachung/fast
 
-HelloWorld.obj: HelloWorld.cpp.obj
-.PHONY : HelloWorld.obj
+#=============================================================================
+# Target rules for targets named TEST_Speed
+
+# Build rule for target.
+TEST_Speed: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TEST_Speed
+.PHONY : TEST_Speed
+
+# fast build rule for target.
+TEST_Speed/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TEST_Speed.dir\build.make CMakeFiles/TEST_Speed.dir/build
+.PHONY : TEST_Speed/fast
+
+TEST_Speed.obj: TEST_Speed.cpp.obj
+.PHONY : TEST_Speed.obj
 
 # target to build an object file
-HelloWorld.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorld.dir\build.make CMakeFiles/HelloWorld.dir/HelloWorld.cpp.obj
-.PHONY : HelloWorld.cpp.obj
+TEST_Speed.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TEST_Speed.dir\build.make CMakeFiles/TEST_Speed.dir/TEST_Speed.cpp.obj
+.PHONY : TEST_Speed.cpp.obj
 
-HelloWorld.i: HelloWorld.cpp.i
-.PHONY : HelloWorld.i
+TEST_Speed.i: TEST_Speed.cpp.i
+.PHONY : TEST_Speed.i
 
 # target to preprocess a source file
-HelloWorld.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorld.dir\build.make CMakeFiles/HelloWorld.dir/HelloWorld.cpp.i
-.PHONY : HelloWorld.cpp.i
+TEST_Speed.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TEST_Speed.dir\build.make CMakeFiles/TEST_Speed.dir/TEST_Speed.cpp.i
+.PHONY : TEST_Speed.cpp.i
 
-HelloWorld.s: HelloWorld.cpp.s
-.PHONY : HelloWorld.s
+TEST_Speed.s: TEST_Speed.cpp.s
+.PHONY : TEST_Speed.s
 
 # target to generate assembly for a file
-HelloWorld.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorld.dir\build.make CMakeFiles/HelloWorld.dir/HelloWorld.cpp.s
-.PHONY : HelloWorld.cpp.s
+TEST_Speed.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TEST_Speed.dir\build.make CMakeFiles/TEST_Speed.dir/TEST_Speed.cpp.s
+.PHONY : TEST_Speed.cpp.s
+
+src/drehzahlueberwachung.obj: src/drehzahlueberwachung.cpp.obj
+.PHONY : src/drehzahlueberwachung.obj
+
+# target to build an object file
+src/drehzahlueberwachung.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\drehzahlueberwachung.dir\build.make CMakeFiles/drehzahlueberwachung.dir/src/drehzahlueberwachung.cpp.obj
+.PHONY : src/drehzahlueberwachung.cpp.obj
+
+src/drehzahlueberwachung.i: src/drehzahlueberwachung.cpp.i
+.PHONY : src/drehzahlueberwachung.i
+
+# target to preprocess a source file
+src/drehzahlueberwachung.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\drehzahlueberwachung.dir\build.make CMakeFiles/drehzahlueberwachung.dir/src/drehzahlueberwachung.cpp.i
+.PHONY : src/drehzahlueberwachung.cpp.i
+
+src/drehzahlueberwachung.s: src/drehzahlueberwachung.cpp.s
+.PHONY : src/drehzahlueberwachung.s
+
+# target to generate assembly for a file
+src/drehzahlueberwachung.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\drehzahlueberwachung.dir\build.make CMakeFiles/drehzahlueberwachung.dir/src/drehzahlueberwachung.cpp.s
+.PHONY : src/drehzahlueberwachung.cpp.s
 
 # Help Target
 help:
@@ -160,10 +197,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... HelloWorld
-	@echo ... HelloWorld.obj
-	@echo ... HelloWorld.i
-	@echo ... HelloWorld.s
+	@echo ... TEST_Speed
+	@echo ... drehzahlueberwachung
+	@echo ... TEST_Speed.obj
+	@echo ... TEST_Speed.i
+	@echo ... TEST_Speed.s
+	@echo ... src/drehzahlueberwachung.obj
+	@echo ... src/drehzahlueberwachung.i
+	@echo ... src/drehzahlueberwachung.s
 .PHONY : help
 
 

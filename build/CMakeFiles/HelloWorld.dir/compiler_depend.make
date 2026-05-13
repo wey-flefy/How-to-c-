@@ -138,7 +138,8 @@ CMakeFiles/HelloWorld.dir/HelloWorld.cpp.obj: C:/_DATA/software/HowToC/HelloWorl
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/_DATA/software/HowToC/inc/drehzahlueberwachung.h
 
 
 C:/msys64/ucrt64/include/sdks/_mingw_ddk.h:
@@ -416,3 +417,5 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h:
+
+C:/_DATA/software/HowToC/inc/drehzahlueberwachung.h:

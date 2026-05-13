@@ -94,6 +94,7 @@ HelloWorld_EXTERNAL_OBJECTS =
 
 HelloWorld.exe: CMakeFiles/HelloWorld.dir/HelloWorld.cpp.obj
 HelloWorld.exe: CMakeFiles/HelloWorld.dir/build.make
+HelloWorld.exe: libdrehzahlueberwachung.a
 HelloWorld.exe: CMakeFiles/HelloWorld.dir/linkLibs.rsp
 HelloWorld.exe: CMakeFiles/HelloWorld.dir/objects1.rsp
 HelloWorld.exe: CMakeFiles/HelloWorld.dir/link.txt

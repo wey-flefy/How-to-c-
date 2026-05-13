@@ -59,5 +59,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/HelloWorld.dir/DependInfo.cmake"
+  "CMakeFiles/drehzahlueberwachung.dir/DependInfo.cmake"
+  "CMakeFiles/TEST_Speed.dir/DependInfo.cmake"
   )
