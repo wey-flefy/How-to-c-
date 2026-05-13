@@ -1,4 +1,4 @@
-#include "Highflow.h"
+#include "highflow.h"
 #include <iostream>
 
 int main() {
