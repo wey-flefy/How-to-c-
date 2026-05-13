@@ -1,3 +1,5 @@
 add_executable(TEST_Speed TEST_Speed.cpp)
+add_executable(TEST_highflow TEST_highflow.cpp)
 
 target_link_libraries(TEST_Speed drehzahlueberwachung)
+target_link_libraries(TEST_highflow highflow)
