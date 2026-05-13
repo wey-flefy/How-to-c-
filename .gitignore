@@ -1,0 +1,4 @@
+# Build-Ordner
+/build/             # Alle Build-Dateien
+/build-*/           # CMake generiert viele Dateien, die nicht versioniert werden sollten
+
