@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/_DATA/software/HowToC/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
