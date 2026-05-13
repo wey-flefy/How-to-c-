@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/_DATA/software/HowToC/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\HelloWorld.dir\\HelloWorld.cpp.obj -c C:\\_DATA\\software\\HowToC\\HelloWorld.cpp",
+  "file": "C:/_DATA/software/HowToC/HelloWorld.cpp",
+  "output": "CMakeFiles/HelloWorld.dir/HelloWorld.cpp.obj"
+}
+]
