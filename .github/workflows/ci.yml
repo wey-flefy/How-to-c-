@@ -1,0 +1,20 @@
+name : CI/CD Pipeline
+on:
+    workflow_dispatch:
+    push:
+    pull_request:
+        branches: [ main ]
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install CMake
+        run: sudo apt-get install cmake
+      - name: Build and Test
+        run: |
+          mkdir build
+          cd build
+          cmake ..
+          make
+          ctest --output-on-failure
