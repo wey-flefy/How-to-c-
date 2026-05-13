@@ -1,10 +1,10 @@
-
+#include "drehzahlueberwachung.h"
 
 
 bool drehzahlueberwachung(int drehzahl) {
-    const int MAX_DREHZAHL = 5000; // Beispielwert für maximale Drehzahl
+    
     if (drehzahl > MAX_DREHZAHL) {
-        return false; // Drehzahl zu hoch
+        return 0; // Drehzahl zu hoch
     }
-    return true; // Drehzahl in Ordnung
+    return 1; // Drehzahl in Ordnung
 }

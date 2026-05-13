@@ -1,0 +1,3 @@
+add_executable(TEST_Speed TEST_Speed.cpp)
+
+target_link_libraries(TEST_Speed drehzahlueberwachung)
