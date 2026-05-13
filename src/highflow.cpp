@@ -7,7 +7,7 @@ int highflow (int rpm) {
         return 0; // Durchflussrate zu hoch
     }
     if (rpm > rpm_UL) {
-        return 100; // Durchflussrate zu hoch
+        return 10; // Durchflussrate zu hoch
     }
     return (rpm - rpm_LL) * 100 / (rpm_UL - rpm_LL); // Berechnung der Durchflussrate in Prozent    
 }
